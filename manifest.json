@@ -1,0 +1,51 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"h_arvs"
+		]
+	},
+	"header": {
+		"name": "Midas Touch Challenge",
+		"description": "Embark on the Midas Touch Challenge in Minecraft, where every touch transforms the world into shimmering gold. With just one hour on the clock, players must harness this power wisely to slay the Ender Dragon before time runs out. Navigate through the golden landscape, strategize your approach, and make every touch count in this thrilling race against time. Do you have what it takes to turn the world to gold and emerge victorious?",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "6f39f54e-b447-4e94-bdf8-553999b56119",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "dd392553-6ed5-4c28-a3e0-89188ad3b4da",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"uuid": "0c96652e-bbcf-4351-9087-98d6f92cc933",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"language": "javascript",
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.8.0"
+		}
+	]
+}
